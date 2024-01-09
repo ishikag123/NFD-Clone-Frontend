@@ -163,3 +163,23 @@
   height: 100%;
   border: 2px solid white;
 }
+@media (max-width: 1240px) {
+  .agg-header {
+    width: 30%;
+  }
+  .agg-box {
+    flex-direction: column;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .agg-box .text-box h1 {
+    font-size: 46px;
+  }
+  .agg-box .text-box p {
+    font-size: 15px;
+  }
+  .agg-box .img-box {
+    display: none;
+  }
+}

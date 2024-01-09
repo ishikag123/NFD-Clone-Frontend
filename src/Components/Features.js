@@ -72,6 +72,7 @@ export const Features = () => {
                     <>
                       <h1>{item.title}</h1>
                       <p>{item.desc}</p>
+                      <img src={item.url} alt="" className="hidden-img" />
                     </>
                   ) : (
                     <>

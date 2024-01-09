@@ -8,7 +8,7 @@ export const SpamBox = () => {
       <div className="text-box">
         <div className="header">
           <h1>No spam, only</h1>
-          <h1 style={{ color: "rgb(218, 191, 255)" }}>Alpha</h1>
+          <h1 style={{ color: "rgb(218, 191, 255)" }}> Alpha</h1>
         </div>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi odio

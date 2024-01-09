@@ -79,3 +79,8 @@
 
   width: 300px;
 }
+@media (max-width: 1240px) {
+  .contact h1 {
+    font-size: 36px;
+  }
+}

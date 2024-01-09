@@ -87,3 +87,18 @@
   height: 100%;
   border: 2px solid white;
 }
+@media (max-width: 1240px) {
+  .rm-header {
+    width: 30%;
+  }
+  .rm-container h1 {
+    font-size: 36px;
+  }
+  .list-container {
+    /* width: 100%; */
+    margin: 5px;
+    /* padding: 5px; */
+    text-align: start;
+    gap: 20px;
+  }
+}

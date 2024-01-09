@@ -23,6 +23,7 @@
   width: 100%;
   margin-top: 60px;
   display: flex;
+  flex-direction: row;
   -webkit-box-pack: justify;
   justify-content: center;
   gap: 30px;
@@ -89,6 +90,7 @@
   border-radius: 20px;
   overflow: auto;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   margin: auto;
@@ -143,4 +145,29 @@
 }
 .cont-2-bottom .bottom-2 button:hover {
   border: transparent;
+}
+
+@media (max-width: 1240px) {
+  .alpha-box h1 {
+    font-size: 46px;
+  }
+  .alpha-item-container {
+    align-items: center;
+    flex-direction: column;
+  }
+  .cont-2-bottom {
+    /* width: 100%; */
+    flex-direction: column;
+    bottom: -200px;
+    padding-bottom: 30px;
+  }
+  .cont-2-bottom .bottom-1 {
+    width: 100%;
+  }
+  .cont-2-bottom .bottom-1 h3 {
+    font-size: 24px;
+  }
+  .cont-2-bottom .bottom-1 p {
+    font-size: 16px;
+  }
 }
