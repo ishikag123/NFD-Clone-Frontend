@@ -1,0 +1,165 @@
+.agg-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  background-image: linear-gradient(
+    to bottom,
+    #411346,
+    #2e1740,
+    #1d1737,
+    #11142b,
+    #090f1e,
+    #050c18,
+    #010812,
+    #000409,
+    #000509,
+    #000609,
+    #000709,
+    #000808
+  );
+  /* height: 100%; */
+  /* overflow: auto; */
+  justify-content: center;
+  padding-bottom: 0;
+  border: none;
+}
+.agg-header {
+  background-color: white;
+  width: 65%;
+  /* height: 20%; */
+  clip-path: polygon(0 0, 100% 0, 88% 51%, 0 51%);
+  padding: 80px;
+}
+.agg-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 120px;
+  /* position: sticky; */
+  top: 0;
+}
+
+.agg-box .text-box {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  /* color: white; */
+  text-align: left;
+  margin-right: 20px;
+  padding: 20px;
+}
+.agg-box .text-box .header-text {
+  width: 220px;
+  background-color: rgb(218, 191, 255);
+  color: white;
+  font-family: Formular;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.agg-box .text-box h1 {
+  margin-top: 30px;
+  font-family: Syne;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  /* line-height: 68px; */
+  color: rgb(255, 255, 255);
+  margin-bottom: 0;
+}
+.agg-box .text-box p {
+  margin-top: 45px;
+  font-family: Formular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: rgb(131, 131, 131);
+  text-align: justify;
+}
+.agg-box .text-box .btn-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: auto;
+}
+.agg-box .text-box .btn-box button {
+  border: none;
+  border-radius: 40px 15px;
+  padding: 14px;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0px 20px;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(108, 82, 238);
+  transition: all 0.5s ease-in-out;
+  width: 300px;
+}
+.agg-box .text-box .btn-box button:hover {
+  background-color: rgb(155, 82, 238);
+}
+.agg-box .text-box .btn-box a {
+  text-decoration: none;
+  width: 100%;
+  max-width: 206px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 61px;
+  padding: 0px;
+  border: none;
+  background-color: transparent;
+  text-decoration: none;
+  font-family: Formular;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: rgb(255, 255, 255);
+  transition: color 0.4s ease 0s;
+}
+.agg-box .text-box .btn-box a:hover {
+  color: rgb(138, 117, 245);
+}
+.agg-box .img-box {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: scroll;
+  position: sticky;
+  padding: 0px 15px;
+  /* background-color: antiquewhite; */
+  /* justify-content: center;
+  align-items: center; */
+}
+.agg-box .img-box::-webkit-scrollbar {
+  display: none;
+}
+.agg-box .img-box img {
+  width: 100%;
+}
+
+.agg-footer {
+  clip-path: polygon(0 53%, 80% 53%, 100% 100%, 0 100%);
+  background-color: white;
+  width: 25%;
+  padding: 80px;
+  margin-top: auto;
+  height: 100%;
+  border: 2px solid white;
+}

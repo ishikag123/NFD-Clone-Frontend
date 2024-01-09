@@ -1,0 +1,109 @@
+.feature {
+  background-color: white;
+  /* height: 100%; */
+  width: 100%;
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 200px;
+  /* margin-top: -30px; */
+  border-bottom: 2px solid white;
+}
+.feature .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 120px;
+}
+.feature .header h1 {
+  margin: 0px;
+  font-family: Syne;
+  font-size: 60px;
+  font-weight: 700;
+  color: rgb(23, 23, 23);
+  line-height: 72px;
+}
+.feature .header p {
+  font-family: Formular;
+  font-size: 24px;
+  font-weight: 400;
+  color: rgb(79, 86, 98);
+  line-height: 34px;
+}
+.feature-body {
+  display: flex;
+  gap: 80px;
+}
+.feature-menu {
+  width: 50%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 463px;
+  cursor: pointer;
+}
+.feature-menu .menu-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.feature-menu .items {
+  max-width: 529px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 25px;
+  gap: 10px;
+  border-radius: 20px;
+  border: 1px solid rgb(225, 233, 240);
+  transition: all 0.4s ease 0s;
+  opacity: 0.5;
+  background-color: white;
+}
+.feature-menu h1 {
+  margin: 0px;
+  font-family: Formular;
+  font-size: 22px;
+  font-weight: 500;
+
+  line-height: 27px;
+}
+.feature-menu p {
+  font-family: Formular;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(79, 86, 98);
+  line-height: 24px;
+}
+.feature-menu .active-items {
+  max-width: 529px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 25px;
+  gap: 10px;
+  border-radius: 20px;
+  border: 1px solid rgb(225, 233, 240);
+  transition: all 0.4s ease 0s;
+  background-color: rgb(232, 235, 241);
+  opacity: 1 !important;
+}
+.feature .img-box {
+  width: 50%;
+  padding: 50px;
+  transition: all 0.4s ease 0s;
+}
+.feature img {
+  width: 100%;
+  height: 100%;
+}

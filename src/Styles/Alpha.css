@@ -1,0 +1,146 @@
+.alpha-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 170px;
+  /* margin-bottom: 370px; */
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.alpha-box h1 {
+  margin: 0px auto;
+  max-width: 800px;
+  font-family: Syne;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 68px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.alpha-item-container {
+  width: 100%;
+  margin-top: 60px;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: center;
+  gap: 30px;
+}
+.alpha-items {
+  width: 100%;
+  max-width: 460px;
+  border-radius: 50px;
+  /* background-color: rgb(73, 92, 236); */
+  height: 74px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  gap: 15px;
+  font-family: Formular;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  /* line-height: 22px; */
+  color: rgb(255, 255, 255);
+  /* position: relative; */
+}
+.alpha-cont-2 {
+  width: 100%;
+  /* background-image: radial-gradient(
+    circle,
+    #36184f,
+    #2d143d,
+    #23102c,
+    #1a0a1c,
+    #0a010b
+  ); */
+  /* padding: 100px 122px 0px; */
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  position: relative;
+}
+.alpha-cont-2 .img-box {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 100px 122px 0px;
+}
+.alpha-cont-2 .img-box img {
+  width: 100%;
+  height: 100%;
+}
+.cont-2-bottom {
+  width: 80%;
+  position: absolute;
+  bottom: -150px;
+  padding: 0px 90px;
+  /* left: 0px; */
+  /* height: 217px; */
+  background: rgb(108, 82, 238);
+  border-radius: 20px;
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.cont-2-bottom .bottom-1 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-right: auto;
+}
+.cont-2-bottom .bottom-1 h3 {
+  font-family: Formular;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  /* line-height: 44px; */
+  color: rgb(255, 255, 255);
+}
+.cont-2-bottom .bottom-1 p {
+  max-width: 475px;
+  width: 100%;
+  font-family: Formular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: rgb(255, 255, 255);
+}
+.cont-2-bottom .bottom-2 {
+  display: flex;
+  width: 500px;
+  gap: 45px;
+  /* -webkit-box-pack: end;
+  justify-content: flex-end; */
+}
+.alpha-box a {
+  text-decoration: none;
+}
+.cont-2-bottom .bottom-2 button {
+  border: none;
+  border-radius: 40px 15px;
+  padding: 18px;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0px 20px;
+  cursor: pointer;
+  border: 1px solid white;
+  transition: all 0.5s ease-in 0s;
+  /* color: white;
+    background-color: rgb(108, 82, 238); */
+}
+.cont-2-bottom .bottom-2 button:hover {
+  border: transparent;
+}

@@ -1,0 +1,44 @@
+.team-class {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.team-class .text-box {
+  width: 50%;
+  text-align: left;
+  margin: 120px 25px;
+}
+.team-class .text-box h1 {
+  font-size: 46px;
+
+  font-family: Syne;
+
+  font-weight: 700;
+  color: rgb(23, 23, 23);
+
+  margin: 0px;
+}
+.team-class .text-box p {
+  font-family: Formular;
+  font-size: 15px;
+
+  font-weight: 400;
+  color: rgb(79, 86, 98);
+
+  margin: 35px 0px 45px;
+}
+.team-class .text-box button {
+  border: none;
+  border-radius: 40px 15px;
+  padding: 14px;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0px 20px;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(108, 82, 238);
+  transition: all 0.5s ease-in-out;
+  width: 300px;
+}

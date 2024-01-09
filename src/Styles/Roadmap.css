@@ -1,0 +1,89 @@
+.rm-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  background-image: linear-gradient(
+    to bottom,
+    #411346,
+    #2e1740,
+    #1d1737,
+    #11142b,
+    #090f1e,
+    #050c18,
+    #010812,
+    #000409,
+    #000509,
+    #000609,
+    #000709,
+    #000808
+  );
+  /* height: 100%; */
+  /* overflow: auto; */
+  justify-content: center;
+  padding-bottom: 0;
+  border: none;
+  color: white;
+  font-family: Formular;
+  font-size: 16px;
+  font-weight: 400;
+}
+.rm-header {
+  background-color: white;
+  width: 65%;
+  /* height: 20%; */
+  clip-path: polygon(0 0, 100% 0, 88% 51%, 0 51%);
+  padding: 80px;
+}
+.rm-container h1 {
+  font-family: Syne;
+  font-size: 80px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  line-height: 88px;
+  text-align: center;
+  margin: 0px 0px 45px;
+}
+.status-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+  border-bottom: 1px solid white;
+  border-width: 80%;
+}
+.list-container h2 {
+  border-bottom: 2px solid white;
+}
+.list-container {
+  display: flex;
+  gap: 120px;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: left;
+  margin: 20px;
+  margin-top: 0;
+}
+.list-container li {
+  margin: 20px 0;
+}
+.rm-container .done {
+  color: rgb(5, 193, 5);
+}
+.rm-container .working {
+  color: orange;
+}
+.rm-container li span {
+  color: white;
+}
+
+.rm-footer {
+  clip-path: polygon(0 53%, 80% 53%, 100% 100%, 0 100%);
+  background-color: white;
+  width: 25%;
+  padding: 80px;
+  margin-top: auto;
+  height: 100%;
+  border: 2px solid white;
+}
