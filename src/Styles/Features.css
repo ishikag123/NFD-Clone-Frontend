@@ -108,6 +108,9 @@
   width: 100%;
   height: 100%;
 }
+.hidden-img {
+  display: none;
+}
 
 @media (max-width: 1240px) {
   .feature-body {
@@ -140,7 +143,10 @@
     border-right: none;
     border-radius: 0;
   }
-  .feature img {
+  .hidden-img {
+    display: flex;
+  }
+  .hidden-img img {
     width: 50%;
     height: 50%;
     margin: auto;
