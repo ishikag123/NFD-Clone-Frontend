@@ -20,7 +20,7 @@ export const Home = () => {
       <Navbar />
       <div className="home">
         <div className="box1">
-          <img src="" alt="" />
+          {/* <img src="" alt="" /> */}
           <h1>NFD platform</h1>
           <h1 style={{ color: "rgb(132, 138, 255)" }}>"NFD.gg"</h1>
           <h3>
@@ -49,10 +49,10 @@ export const Home = () => {
 
             <a href="#aggregator">How it works?</a>
           </div>
-          <div className="bottom-style-box"></div>
+          {/* <div className="bottom-style-box"></div> */}
         </div>
         <div className="box2">
-          <div className="top-style-box"></div>
+          {/* <div className="top-style-box"></div> */}
           <div className="box2-roundBox">
             <PiHandsClappingLight />
             <p>Software by NFD</p>
